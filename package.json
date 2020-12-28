@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-uiux",
+  "version": "0.0.01",
+  "description": "UIUX style",
+  "main": "index.js",
+  "homepage": "https://github.com/zcvfcat/eslint-config-uiux",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zcvfcat/eslint-config-uiux"
+  },
+  "bugs": {
+    "url": "https://github.com/zcvfcat/eslint-config-uiux/issues",
+    "email": "zcvfcat@gmail.com"
+  },
+  "keywords": [
+    "uiux",
+    "douzone",
+    "lint"
+  ],
+  "author": "zcvfcat zcvfcat@gmail.com (https://zcvfcat.github.io)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.16.0"
+  }
+}
