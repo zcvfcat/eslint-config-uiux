@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-uiux",
-  "version": "0.0.01",
+  "version": "0.0.5",
   "description": "UIUX style",
   "main": "index.js",
   "homepage": "https://github.com/zcvfcat/eslint-config-uiux",
@@ -19,7 +19,22 @@
   ],
   "author": "zcvfcat zcvfcat@gmail.com (https://zcvfcat.github.io)",
   "license": "MIT",
+  "scripts": {
+    "ts:fix": "eslint '**/*.{ts}' --quiet --fix",
+    "js:fix": "eslint '**/*.{js}' --quiet --fix",
+    "test-lint": "eslint . && prettier --check ."
+  },
   "devDependencies": {
-    "eslint": "^7.16.0"
+    "@typescript-eslint/eslint-plugin": "^4.11.1",
+    "@typescript-eslint/parser": "^4.11.1",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
   }
 }
